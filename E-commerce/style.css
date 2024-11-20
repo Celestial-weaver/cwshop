@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Roboto",sans-serif;
+}
+
+@media only screen and (max-width: 450px) {
+    .top-banner{
+        background-color: black;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .top-banner{
+        background-color: black;
+    }
+}
+
+@media only screen and (max-width: 1920px) {
+    .top-banner{
+        background-color: black;
+        font-size: 0.8rem;
+        color:white;
+        padding: 1rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    /*start working for nav bar  */
+    nav {
+        width: 100%;
+        padding: 1.2rem 6rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav ul li {
+        float: left;
+        list-style: none;
+        margin: 0rem 2rem;
+    }
+
+    nav ul li:hover{
+        text-decoration: underline;
+    }
+
+    nav div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .search-box {
+        background-color: rgb(235, 235, 235);
+        margin: 0px 1rem;
+        padding: 0.5rem;
+        border-radius: 3px;
+    }    
+
+    nav ion-icon{
+        font-size: 28px;
+        margin: 0px 0.5rem;
+    }
+
+    .search-box input{
+        background-color: transparent;
+        padding:0rem 0.5rem;
+        border: none;
+        outline: none;
+    }
+
+    /* end working for nav  */
+    
+    /* start working for header  */
+    header{
+        display: flex;
+        justify-content: center;
+        padding: 0px 5rem;
+        margin-bottom: 10%;
+    }
+
+    .side-list{
+        width: 20%;
+        padding:3rem 1rem;
+        border-right: 1px solid lightgray;
+    }
+
+    .side-list ul li{
+        list-style: none;
+        margin-bottom: 1.5rem;
+        font-size: 1.2rem;
+    }
+
+    .side-list ul li:hover{
+        text-decoration: underline;
+    }
+
+    .header-banner{
+        width: 80%;
+        padding:3%;
+    }
+
+    .banner{
+        background: url("products/iphone16/main.jpg.jpg");
+        background-size: cover;
+        background-position: center;
+        padding: 2rem;
+    }
+
+    .header-banner img{
+        width: 100%;
+    }
+
+    .banner h3{
+        margin: 0rem 0rem 15rem 2rem;
+    }
+    
+    .banner h2{
+        margin: 20rem 0rem 0rem 2rem;
+        padding: 0.5rem;
+    }
+
+    .banner h2 ion-icon{
+        margin-bottom: -0.4rem;
+    }
+
+    /* end working for header  */
+
+    /* start working for Today s collection  */
+    .Todays{
+        border: 1px solid red;
+        margin:0rem 6rem;
+    }
+    
+    .Todays .timer-box,.Todays .date, .Todays .heading{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .Todays h3 {
+        color: red; 
+        margin: 1rem;
+
+    }
+
+    .red-box-in-collection{
+        background-color: red;
+        height: 2rem;
+        width: 1rem;
+    }
+
+    .timer-box .date{
+        margin-left: 6rem;
+    }
+
+    .timer-box h1{
+        font-size: 3rem;
+        margin: 0rem 1rem 0rem 0rem;
+    }
+
+    .timer-box h1 span{
+        color: red;
+        margin-left: 0.5rem;
+        padding: 1rem;
+    }
+
+
+    .item-slider{
+        border: 1px solid green;
+        width: 18rem;
+        height: 24rem;
+    }
+
+    .outer-image.box{
+        border: 1px solid blue;
+    }
+
+    .inner-image-box{
+        border: 1px solid yellow;
+    }
+
+
+}
